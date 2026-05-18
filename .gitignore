@@ -1,0 +1,47 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Xcode and SwiftPM build output
+.build/
+DerivedData/
+*.xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+xcuserdata/
+
+# Local app build products
+MirrorCheck.app/
+*.app.dSYM/
+*.dSYM/
+
+# Signing, packaging, and distribution artifacts
+*.ipa
+*.pkg
+*.dmg
+*.zip
+*.xcarchive/
+
+# Logs and diagnostics
+*.log
+*.crash
+*.ips
+
+# Local environment and editor files
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Reference repositories
+refrence/
+reference/
+
+# Nested reference repositories
+refrence/**/.git/
+reference/**/.git/
